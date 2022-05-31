@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+input{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mail p,
+.contra p{
+    margin-bottom: 10px;
+}
+.mail input,
+.contra input{
+    padding: 2.5px;
+}
+
+.contra p{
+    margin-top: 10px;
+}
+
+.mail input,
+.contra input{
+    min-width: 300px;
+}
+
+button{
+margin-top: 30px;
+color: black;
+background-color: blueviolet;
+border-radius: 10px;
+width: 200px;
+padding: 3px;
+box-shadow: 3px 3px 10px black;
+}
